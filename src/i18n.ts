@@ -28,13 +28,59 @@ const resources = {
         pending: 'Pending',
         approved: 'Approved',
         rejected: 'Rejected',
-        status: {
-          pending: 'Pending',
+        category: {
+          all: 'All Categories',
+          dev: 'Development',
+          design: 'Design',
+          writing: 'Writing',
+          research: 'Research'
+        },
+        badge: {
+          verified: 'Verified',
+          trending: 'Trending',
+          rejected: 'Rejected',
+          new: 'New'
+        },
+        approve: 'Approve',
+        reject: 'Reject',
+        verify: 'Verify',
+        trend: 'Trend',
+        auto_refresh: 'Auto-refresh',
+        export: 'Export Approved GPTs',
+        export_success: 'Feed exported successfully!',
+        export_error: 'Error exporting feed',
+        submitted_by: 'Submitted by {{submitter}}',
+        status_changed_to: 'Status changed to {{status}}',
+        history: 'Submission History',
+        category: {
+          all: 'All Categories',
+          dev: 'Development',
+          design: 'Design',
+          writing: 'Writing',
+          research: 'Research'
+        },
+        analytics: {
+          total: 'Total GPTs',
+          pending: 'Pending Review',
           approved: 'Approved',
           rejected: 'Rejected'
         },
-        approve: 'Approve',
-        reject: 'Reject'
+        advanced_filters: {
+          title: 'Advanced Filters',
+          date_range: 'Date Range',
+          tags: 'Tags',
+          tags_placeholder: 'Enter tags (comma separated)',
+          hide_filters: 'Hide Filters',
+          show_filters: 'Show Filters'
+        },
+        bulk: {
+          approve: 'Bulk Approve',
+          reject: 'Bulk Reject',
+          verify: 'Bulk Verify',
+          trend: 'Bulk Trend',
+          success: 'Bulk action completed successfully',
+          error: 'Error performing bulk action'
+        }
       }
     },
   },
